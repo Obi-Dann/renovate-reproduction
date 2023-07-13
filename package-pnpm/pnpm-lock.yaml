@@ -4,9 +4,12 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  semver: 7.5.1
+
 dependencies:
   semver:
-    specifier: '>=6'
+    specifier: 7.5.1
     version: 7.5.1
 
 packages:
